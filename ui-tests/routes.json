@@ -1,3 +1,5 @@
 {
-  "/api/literature?q=custom": "literature/customSearch.json"
+  "/api/literature?q=custom": "literature/customSearch.json",
+  "/api/literature/1": "literature/1.json",
+  "/literature/1": "literature/1.json"
 }

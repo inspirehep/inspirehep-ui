@@ -1,5 +1,402 @@
 {
   "metadata": {
-    "control_number": 1
+    "$schema": "https://labs.inspirehep.net/schemas/records/hep.json",
+    "_collections": ["Literature"],
+    "_created": "2018-05-14T00:00:00+00:00",
+    "_desy_bookkeeping": [
+      {
+        "identifier": "DA18-kp22k"
+      },
+      {
+        "date": "2018-05-23",
+        "expert": "Z",
+        "status": "abs"
+      },
+      {
+        "date": "2018-05-29",
+        "expert": "Z",
+        "status": "printed"
+      },
+      {
+        "date": "2018-06-04",
+        "expert": "Z",
+        "status": "final"
+      }
+    ],
+    "_updated": "2018-06-08T09:05:25.842065+00:00",
+    "abstracts": [
+      {
+        "abstract_source_suggest": {
+          "input": "arXiv",
+          "output": "arXiv"
+        },
+        "source": "arXiv",
+        "value":
+          "Indirect signs of new physics beyond the Standard Model may be appearing in $B \\to K^{(*)}\\mu^+\\mu^-$ decays. If confirmed, the title question will be of paramount importance in determining the strategy for future colliders. We answer it by estimating the sensitivity to minimal, anomaly-compatible $Z^\\prime$ and leptoquark models at the high luminosity LHC, 27 TeV HE-LHC, and 100 TeV FCC-hh; this conservative analysis outlines an upper bound on the available parameter space and the conditions for a reasonable guarantee of direct discovery."
+      }
+    ],
+    "acquisition_source": {
+      "datetime": "2018-05-14T03:05:30.828706",
+      "method": "hepcrawl",
+      "source": "arXiv",
+      "submission_number": "1029134"
+    },
+    "arxiv_eprints": [
+      {
+        "categories": ["hep-ph", "hep-ex"],
+        "value": "1805.04418"
+      }
+    ],
+    "author_count": 1,
+    "authors": [
+      {
+        "affiliations": [
+          {
+            "recid": 907623,
+            "record": {
+              "$ref": "http://labs.inspirehep.net/api/institutions/907623"
+            },
+            "value": "Cambridge U., DAMTP"
+          }
+        ],
+        "full_name": "You, Tevong",
+        "full_name_unicode_normalized": "you, tevong",
+        "ids": [
+          {
+            "schema": "INSPIRE BAI",
+            "value": "T.You.1"
+          }
+        ],
+        "name_suggest": {
+          "input": [
+            "t you",
+            "you, tevong",
+            "you, t",
+            "t, you",
+            "you t",
+            "tevong, you",
+            "tevong you",
+            "you",
+            "you tevong"
+          ],
+          "output": "You, Tevong",
+          "payload": {
+            "bai": "T.You.1"
+          }
+        },
+        "name_variations": [
+          "t you",
+          "you, tevong",
+          "you, t",
+          "t, you",
+          "you t",
+          "tevong, you",
+          "tevong you",
+          "you",
+          "you tevong"
+        ],
+        "raw_affiliations": [
+          {
+            "value":
+              "DAMTP, Cavendish Laboratory, University of Cambridge, Wilberforce Road, CB3 0WA Cambridge, UK"
+          }
+        ],
+        "recid": 1087415,
+        "record": {
+          "$ref": "http://labs.inspirehep.net/api/authors/1087415"
+        },
+        "signature_block": "Yt",
+        "uuid": "5b7f27f0-1b7a-45c3-9fdd-9e6c4af02bf8"
+      }
+    ],
+    "citeable": true,
+    "control_number": 1,
+    "core": true,
+    "document_type": ["conference paper"],
+    "documents": [
+      {
+        "fulltext": true,
+        "key": "1805.04418.pdf",
+        "source": "arXiv",
+        "url":
+          "file:///afs/cern.ch/project/inspire/PROD/var/data/files/g162/3246165/content.pdf%3B1"
+      }
+    ],
+    "earliest_date": "2018-05-11",
+    "facet_inspire_doc_type": ["conference paper"],
+    "figures": [
+      {
+        "caption":
+          "Projected 95\\% CL limits on di-muon final states at future colliders described in the legends. The conservative extrapolation method underestimates the actual limit at low masses, as indicated by the shaded region.",
+        "key": "Zprime_exclusionplot_HLLHC_HELHC.png",
+        "url":
+          "file:///afs/cern.ch/project/inspire/PROD/var/data/files/g162/3246162/content.png%3B2"
+      },
+      {
+        "caption":
+          "Projected 95\\% CL limits on di-muon final states at future colliders described in the legends. The conservative extrapolation method underestimates the actual limit at low masses, as indicated by the shaded region.",
+        "key": "Zprime_exclusionplot_FCC.png",
+        "url":
+          "file:///afs/cern.ch/project/inspire/PROD/var/data/files/g162/3246161/content.png%3B2"
+      },
+      {
+        "caption":
+          "Parameter space that explains the anomaly (shaded green on the left, whole region on the right) with HL-LHC coverage shown in blue and excluded by $B_s - \\bar{B}_s$ mixing in red. The narrow width assumption breaks down in the grey region.",
+        "key": "fig_Zprimexsection_ECoM14TeV_MZ1_5TeV.png",
+        "url":
+          "file:///afs/cern.ch/project/inspire/PROD/var/data/files/g162/3246166/content.png%3B2"
+      },
+      {
+        "caption":
+          "Parameter space that explains the anomaly (shaded green on the left, whole region on the right) with HL-LHC coverage shown in blue and excluded by $B_s - \\bar{B}_s$ mixing in red. The narrow width assumption breaks down in the grey region.",
+        "key": "fig_minimalZprimecoverage_ECoM14TeV.png",
+        "url":
+          "file:///afs/cern.ch/project/inspire/PROD/var/data/files/g162/3246163/content.png%3B2"
+      },
+      {
+        "caption":
+          "As in Fig.~\\ref{fig:14TeV} but for 100 TeV FCC-hh (and 27 TeV HE-LHC in dotted blue on the right).",
+        "key": "fig_Zprimexsection_ECoM100TeV_MZ15TeV.png",
+        "url":
+          "file:///afs/cern.ch/project/inspire/PROD/var/data/files/g162/3246160/content.png%3B2"
+      },
+      {
+        "caption":
+          "As in Fig.~\\ref{fig:14TeV} but for 100 TeV FCC-hh (and 27 TeV HE-LHC in dotted blue on the right).",
+        "key": "fig_minimalZprimecoverage_ECoM100TeV.png",
+        "url":
+          "file:///afs/cern.ch/project/inspire/PROD/var/data/files/g162/3246158/content.png%3B2"
+      },
+      {
+        "caption":
+          "95\\% CL limits as described in Fig.~\\ref{fig:minimalZprimeexclusion} but for leptoquark pair production. The available parameter space compatible with the anomaly in green is displayed on a log-log scale in the bottom plot, with the red region excluded by $B_s - \\bar{B}_s$ mixing.",
+        "key": "LQ_exclusionplot_HLLHC_HELHC.png",
+        "url":
+          "file:///afs/cern.ch/project/inspire/PROD/var/data/files/g162/3246164/content.png%3B2"
+      },
+      {
+        "caption":
+          "95\\% CL limits as described in Fig.~\\ref{fig:minimalZprimeexclusion} but for leptoquark pair production. The available parameter space compatible with the anomaly in green is displayed on a log-log scale in the bottom plot, with the red region excluded by $B_s - \\bar{B}_s$ mixing.",
+        "key": "LQ_exclusionplot_FCC.png",
+        "url":
+          "file:///afs/cern.ch/project/inspire/PROD/var/data/files/g162/3246157/content.png%3B2"
+      },
+      {
+        "caption":
+          "95\\% CL limits as described in Fig.~\\ref{fig:minimalZprimeexclusion} but for leptoquark pair production. The available parameter space compatible with the anomaly in green is displayed on a log-log scale in the bottom plot, with the red region excluded by $B_s - \\bar{B}_s$ mixing.",
+        "key": "fig_leptoquark.png",
+        "url":
+          "file:///afs/cern.ch/project/inspire/PROD/var/data/files/g162/3246159/content.png%3B2"
+      }
+    ],
+    "inspire_categories": [
+      {
+        "source": "arxiv",
+        "term": "Phenomenology-HEP"
+      },
+      {
+        "source": "arxiv",
+        "term": "Experiment-HEP"
+      },
+      {
+        "term": "Phenomenology-HEP"
+      },
+      {
+        "term": "Experiment-HEP"
+      }
+    ],
+    "keywords": [
+      {
+        "schema": "INSPIRE",
+        "value": "scale: new physics"
+      },
+      {
+        "schema": "INSPIRE",
+        "value": "luminosity: high"
+      },
+      {
+        "schema": "INSPIRE",
+        "value": "CERN LHC Coll"
+      },
+      {
+        "schema": "INSPIRE",
+        "value": "sensitivity"
+      },
+      {
+        "schema": "INSPIRE",
+        "value": "leptoquark"
+      },
+      {
+        "schema": "INSPIRE",
+        "value": "Z'"
+      },
+      {
+        "schema": "INSPIRE",
+        "value": "FCC-hh"
+      },
+      {
+        "schema": "INSPIRE",
+        "value": "parameter space"
+      },
+      {
+        "schema": "INSPIRE",
+        "value": "B: rare decay"
+      },
+      {
+        "schema": "INSPIRE",
+        "value": "B --> K muon+ muon-"
+      },
+      {
+        "schema": "INSPIRE",
+        "value": "B --> K*(892) muon+ muon-"
+      }
+    ],
+    "legacy_creation_date": "2018-05-14",
+    "license": [
+      {
+        "license": "arXiv nonexclusive-distrib 1.0",
+        "url": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
+      }
+    ],
+    "number_of_pages": 4,
+    "preprint_date": "2018-05-11",
+    "public_notes": [
+      {
+        "source": "arXiv",
+        "value":
+          "4 pages, 4 figures. Contribution to the proceedings of the 53rd Rencontres de Moriond"
+      }
+    ],
+    "references": [
+      {
+        "curated_relation": false,
+        "recid": 1631178,
+        "record": {
+          "$ref": "http://labs.inspirehep.net/api/literature/1631178"
+        },
+        "reference": {
+          "arxiv_eprint": "1710.06363",
+          "authors": [
+            {
+              "full_name": "Allanach, B.C."
+            },
+            {
+              "full_name": "Gripaios, B."
+            },
+            {
+              "full_name": "You, T."
+            }
+          ],
+          "dois": ["10.1007/JHEP03(2018)021"],
+          "label": "1",
+          "publication_info": {
+            "artid": "021",
+            "journal_title": "JHEP",
+            "journal_volume": "03",
+            "page_start": "021",
+            "year": 2018
+          }
+        }
+      },
+      {
+        "reference": {
+          "authors": [
+            {
+              "full_name": "Hiller, G."
+            }
+          ],
+          "label": "2",
+          "misc": ["these proceedings"]
+        }
+      },
+      {
+        "curated_relation": false,
+        "recid": 1602964,
+        "record": {
+          "$ref": "http://labs.inspirehep.net/api/literature/1602964"
+        },
+        "reference": {
+          "arxiv_eprint": "1706.01868",
+          "authors": [
+            {
+              "full_name": "Di Luzio, L."
+            },
+            {
+              "full_name": "Nardecchia, M."
+            }
+          ],
+          "dois": ["10.1140/epjc/s10052-017-5118-9"],
+          "label": "3",
+          "publication_info": {
+            "artid": "536",
+            "journal_title": "Eur.Phys.J.C",
+            "journal_volume": "77",
+            "page_start": "536",
+            "year": 2017
+          }
+        }
+      },
+      {
+        "curated_relation": false,
+        "recid": 1343133,
+        "record": {
+          "$ref": "http://labs.inspirehep.net/api/literature/1343133"
+        },
+        "reference": {
+          "arxiv_eprint": "1502.01701",
+          "authors": [
+            {
+              "full_name": "Thamm, A."
+            },
+            {
+              "full_name": "Torre, R."
+            },
+            {
+              "full_name": "Wulzer, A."
+            }
+          ],
+          "dois": ["10.1007/JHEP07(2015)100"],
+          "label": "4",
+          "misc": [
+            "c It is, in fact, impossible to have a na¨ıve Z model without additional couplings"
+          ],
+          "publication_info": {
+            "artid": "100",
+            "journal_title": "JHEP",
+            "journal_volume": "07",
+            "page_start": "100",
+            "year": 2015
+          }
+        }
+      }
+    ],
+    "report_numbers": [
+      {
+        "source": "arXiv",
+        "value": "Cavendish-HEP-18/10"
+      },
+      {
+        "source": "arXiv",
+        "value": "DAMTP-2018-18"
+      },
+      {
+        "value": "CAVENDISH-HEP-18-10"
+      },
+      {
+        "value": "DAMTP-2018-18"
+      }
+    ],
+    "self": {
+      "$ref": "http://labs.inspirehep.net/api/literature/1672783"
+    },
+    "self_recid": 1672783,
+    "texkeys": ["You:2018yno"],
+    "titles": [
+      {
+        "source": "arXiv",
+        "title":
+          "Can We Reach the Scale of New Physics Behind the $B$ Anomalies?"
+      }
+    ]
   }
 }
