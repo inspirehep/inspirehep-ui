@@ -6,7 +6,8 @@ const routes = {
   },
   public: {
     home: appBaseUrl,
-    literatureSearch: `${appBaseUrl}/literature`,
+    literatureSearch: `${appBaseUrl}/literature/customSearch`,
+    literatureDetailForRecord1: `${appBaseUrl}/literature/1`,
   },
 };
 
