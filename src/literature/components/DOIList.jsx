@@ -24,7 +24,7 @@ class DOIList extends Component {
         label="DOI"
         items={dois}
         extractKey={doi => doi.get('value')}
-        renderItem={DOIList.renderDoiItem}
+        renderItem={doi => DOIList.renderDoiItem(doi)}
       />
     );
   }
