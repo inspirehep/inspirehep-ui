@@ -29,6 +29,9 @@ const authorSchema = object().shape({
       .nullable()
       .email()
       .label('Public Email')
+      .test('unique', ' Emails must be unqie', function f(value) {
+        return this.parent.filter(item => item === value).length === 1;
+      })
   ),
   status: string()
     .oneOf(authorStatusValues)
